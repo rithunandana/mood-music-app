@@ -1,16 +1,54 @@
-# React + Vite
+# 🎧 Mood Music App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Your music, your emotions — a real-time mood-based music generator built with React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌈 What It Does
 
-## React Compiler
+This app detects how you're feeling and instantly plays a Spotify playlist that matches your vibe — while the entire UI shifts color to reflect your mood.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Three ways to detect your mood:**
+- 📷 **Camera** — AI scans your face expression every 2.5 seconds
+- ⌨️ **Text** — Type how you feel, app detects the emotion
+- 🖱️ **Manual** — Pick your mood yourself
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎭 Mood Themes
+
+| Mood | Vibe | Color |
+|------|------|-------|
+| 😊 Happy | Upbeat & energetic | Orange → Pink |
+| 🌧️ Sad | Emotional & slow | Navy → Indigo |
+| 🔥 Angry | Intense & heavy | Red → Orange |
+| 🌊 Calm | Peaceful & soft | Teal → Emerald |
+| 😐 Neutral | Mixed & chill | Slate → Gray |
+
+---
+
+## 🛠️ Built With
+
+- **React + Vite** — Frontend
+- **face-api.js** — Real-time facial emotion detection
+- **Spotify Embed API** — Music player
+- **Canvas API** — Floating particle animations
+
+---
+
+## ⚡ Run Locally
+```bash
+git clone https://github.com/rithunandana/mood-music-app.git
+cd mood-music-app
+npm install
+npm run dev
+```
+
+Then open `http://localhost:5173`
+
+> **Note:** Download face-api.js model files from [here](https://github.com/justadudewhohacks/face-api.js/tree/master/weights) and place them in `public/models/`
+
+---
+
+## 👩‍💻 Made by Rithu Nandana
+Built from scratch using VS Code 🎧✨
