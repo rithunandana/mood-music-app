@@ -50,5 +50,3 @@ Then open `http://localhost:5173`
 
 ---
 
-## 👩‍💻 Made by Rithu Nandana
-Built from scratch using VS Code 🎧✨
